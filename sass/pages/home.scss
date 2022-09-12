@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+.header {
+  font-size: 20px;
+  line-height: 1.4;
+  position: fixed;
+  background-color: white;
+  z-index: 100000;
+  width: 100%;
+  min-height: 15vh;
+  height: 22vh;
+}
+
+.container01 {
+  min-height: 25vh;
+}
+
+#navbarNav {
+  a {
+    transition: 0.4s ease-in;
+    border-bottom: 1px solid transparent;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    &:hover {
+      border-bottom: 1px solid black;
+    }
+  }
+}
+
+.logoPc {
+  width: 281px;
+  margin-left: 120px;
+  margin-right: 175px;
+}
+
+.container02 {
+  min-height: 60vh;
+  background-color: #4062bb;
+}
+
+.brand {
+  display: flex;
+  padding-top: 35px;
+}
+
+.img img {
+  width: 100%;
+  min-height: 417px;
+}
+
+.brandTitle {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.brandText {
+  width: 70%;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0px 50px 0px 0px;
+  margin: 43px 0px 80px;
+  color: #ffffff;
+}
+
+.brandNum {
+  font-size: 30px;
+  color: white;
+}
+
+.container03 {
+  min-height: 45vh;
+  background-color: white;
+  padding: 50px;
+}
+
+.sobrenos {
+  display: flex;
+  height: fit-content;
+}
+
+.textimg {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.imgDele {
+  height: 600px;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  margin-top: 50px;
+  font-size: 26px;
+  padding: 50px;
+  color: #444343;
+  line-height: 1.8em;
+}
+
+.sobre {
+  color: #545454;
+  font-size: 28px;
+}
+
+.clinica {
+  color: blue;
+  font-size: 28px;
+}
+
+.container04 {
+  min-height: 65vh;
+}
+
+.estrutura {
+  font-size: 15px;
+  color: #444343;
+}
+
+.estrutura img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.item1 {
+  background-image: url("Imagens/bgpadrao.jpeg");
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item2 {
+  background-image: url(Imagens/bg1.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url(Imagens/bg2.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url(Imagens/bg3.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item5 {
+  background-image: url(Imagens/bg4.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url(Imagens/bg5.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item7 {
+  background-image: url(Imagens/bg6.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item8 {
+  background-image: url(Imagens/bg7.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item9 {
+  background-image: url(Imagens/bg8.jpeg);
+  min-height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgfooter {
+  width: 40%;
+}
+
+.titleStruct {
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.container05 {
+  min-height: 25vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.textFrase p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.fivefirst {
+  color: blue;
+}
+
+.fivesecond {
+  color: #4062bb;
+  font-size: 22px;
+}
+
+.flui05 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonNum {
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 30px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.buttonNum:hover {
+  background-color: #4062bb;
+}
+
+.container06 {
+  min-height: 150vh;
+  padding: 15px;
+}
+
+.vetTitle {
+  color: #545454;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.vetSubtitle {
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.vetText {
+  font-size: 22px;
+  color: #444343;
+}
+
+.vets {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  color: #444343;
+  font-size: 20px;
+}
+
+.card-title {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container07 {
+  min-height: 50vh;
+}
+
+.listasservices {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.service-title {
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.service-subtitle {
+  color: #444343;
+  font-size: 20px;
+}
+
+.listasservices li {
+  font-size: 20px;
+  color: #444343;
+}
+
+.container08 {
+  min-height: 20vh;
+  background-color: white;
+  padding: 35px;
+}
+
+.siganos {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+.siganos a {
+  text-decoration: none;
+  color: #4062bb;
+}
+
+.siga-nos {
+  font-size: 61px;
+  color: #4062bb;
+  font-weight: bold;
+}
+
+.container05 {
+  background-color: transparent;
+  margin: 20px;
+}
+
+.container06 {
+  background-color: rgba(173, 173, 173, 0.2);
+}
+
+.container07 {
+  background-color: rgba(173, 173, 173, 0.2);
+}
+
+.container05color {
+  background-color: rgba(173, 173, 173, 0.2);
+}
+
+.container09 {
+  min-height: 90vh;
+  background-color: #4062bb;
+}
+
+.container09 a,
+p {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.prefooter {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+
+.rigth {
+  display: flex;
+  flex-direction: column;
+}
+
+.linha1 {
+  display: flex;
+  color: white;
+  font-size: 33px;
+  align-items: center;
+  font-weight: bold;
+  gap: 40px;
+}
+
+.linha2 {
+  display: flex;
+  color: white;
+}
+
+.ins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.fac {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linha2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wha {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4062bb;
+  min-height: 15vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.footerText {
+  color: white;
+  font-size: 22px;
+}
+
+.sobreText {
+  color: #444343;
+}
+
+#subir {
+  position: fixed;
+  bottom: 95px;
+  right: 20px;
+  background: rgba(0, 0, 255, 0.453);
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  display: none;
+  border-radius: 10px;
+  z-index: 1000;
+  visibility: visible;
+}
+
+#subir:hover {
+  background-color: blue;
+}
+
+@media (max-width: 1500px) {
+  .container02 {
+    min-height: 30vh;
+  }
+  .container05 {
+    min-height: 20vh;
+  }
+  .container05 button {
+    font-size: 20px;
+  }
+  .carroselimgs {
+    min-height: 45vh;
+  }
+  .item1 {
+    min-height: 65vh;
+  }
+  .item2 {
+    min-height: 65vh;
+  }
+  .item3 {
+    min-height: 65vh;
+  }
+  .item4 {
+    min-height: 65vh;
+  }
+  .item5 {
+    min-height: 65vh;
+  }
+  .item6 {
+    min-height: 65vh;
+  }
+  .item7 {
+    min-height: 65vh;
+  }
+  .item8 {
+    min-height: 65vh;
+  }
+  .item9 {
+    min-height: 65vh;
+  }
+  .container06 {
+    min-height: 90vh;
+  }
+  .container07 {
+    min-height: 20vh;
+  }
+  .container09 {
+    min-height: 30vh;
+  }
+}
+
+@media (max-width: 1300px) {
+  .text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text {
+    font-size: 18px;
+  }
+  .imgfooter {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 850px) {
+  .text {
+    font-size: 12px;
+  }
+  .caixas {
+    width: 100%;
+  }
+}
+
+@media (max-width: 782px) {
+  .brandText {
+    width: 100%;
+  }
+  .container07 {
+    min-height: 30vh;
+  }
+  .container08 {
+    min-height: 10vh;
+  }
+  .container09 {
+    min-height: 60vh;
+  }
+  .listasservices {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .siga-nos {
+    font-size: 30px;
+  }
+  .brand {
+    flex-direction: column;
+  }
+  .sobrenos {
+    flex-direction: column;
+  }
+  .sobrenos img {
+    width: 500px;
+  }
+  .estrutura {
+    flex-direction: column;
+  }
+  .card {
+    font-size: 18px;
+    width: 500px;
+    height: 400px;
+  }
+  .card img {
+    width: 100%;
+    height: 50%;
+  }
+  .container05 {
+    margin-top: 90px;
+  }
+  .flui05 {
+    flex-direction: column;
+  }
+  .vets {
+    flex-direction: column;
+  }
+  .prefooter {
+    flex-direction: column;
+  }
+  .text {
+    width: 85%;
+    line-height: normal;
+  }
+  .textimg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 490px) {
+  #subir {
+    visibility: hidden;
+  }
+  .prefooter {
+    justify-content: space-between;
+  }
+  .logoPc {
+    width: auto;
+  }
+  .brandText {
+    font-size: 30px;
+  }
+  .brandNum {
+    font-size: 30px;
+  }
+  .sobrenos {
+    width: 100%;
+  }
+  .text {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
